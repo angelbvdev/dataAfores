@@ -1,0 +1,28 @@
+        fecha                     tipo_recurso     plazo                            afore   monto
+0  2019-12-01  sb pensiones promedio ponderado  12 meses  sb pensiones promedio ponderado  7.1740
+1  2020-01-01  sb pensiones promedio ponderado  12 meses  sb pensiones promedio ponderado  7.4482
+2  2020-02-01  sb pensiones promedio ponderado  12 meses  sb pensiones promedio ponderado  7.6127
+3  2020-03-01  sb pensiones promedio ponderado  12 meses  sb pensiones promedio ponderado  6.7287
+4  2020-04-01  sb pensiones promedio ponderado  12 meses  sb pensiones promedio ponderado  6.9632
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 35041 entries, 0 to 35040
+Data columns (total 5 columns):
+ #   Column        Non-Null Count  Dtype  
+---  ------        --------------  -----  
+ 0   fecha         35041 non-null  object 
+ 1   tipo_recurso  35041 non-null  object 
+ 2   plazo         35041 non-null  object 
+ 3   afore         35041 non-null  object 
+ 4   monto         35041 non-null  float64
+dtypes: float64(1), object(4)
+memory usage: 1.3+ MB
+None
+              monto
+count  35041.000000
+mean       6.746288
+std        3.733209
+min      -11.472900
+25%        4.928700
+50%        6.716400
+75%        8.644000
+max       27.171200
